@@ -13,6 +13,8 @@ purple='\033[35m'
 bold='\033[1m'
 end='\033[0m'
 
+name="${bold}${green}Timofey Martynenko${end}"
+
 len () {
   echo $@ | wc -c
 }

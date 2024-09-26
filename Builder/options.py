@@ -15,7 +15,7 @@ class UserInterface:
 
     @staticmethod
     def is_verify_response(text) -> bool:
-        if "y" in text.lower():
+        if "y" or "Y" in text.lower():
             return True
         else:
             return False

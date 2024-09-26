@@ -10,7 +10,7 @@ class Daemons:
     @staticmethod
     def __enable_network_daemon():
         os.system("sudo systemctl enable NetworkManager")
-    
+
     @staticmethod
     def __enable_bluetooth_daemon():
         os.system("sudo systemctl enable bluetooth.service")

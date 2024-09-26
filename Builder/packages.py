@@ -1,5 +1,3 @@
-
-
 BASE_PACKAGES = [
     "tumbler", "ffmpegthumbnailer", "lsd", "alacritty", "bat", "brightnessctl", "calc",
     "automake", "blueman", "bluez", "bluez-utils", "dunst", "fakeroot", "feh", "firefox",
@@ -13,23 +11,24 @@ BASE_PACKAGES = [
     "vlc", "usbutils", "picom", "networkmanager-openvpn", "alsa-plugins", "alsa-tools", "alsa-utils", "ffmpeg",
     "p7zip", "gparted", "sshfs", "openvpn", "xclip", "gpick", "wget", "ueberzug", "netctl", "light", "libreoffice",
     "breeze", "vulkan-intel", "intel-ucode", "ttf-jetbrains-mono", "ttf-jetbrains-mono-nerd", "ttf-fira-code",
-    "ttf-iosevka-nerd"
+    "ttf-iosevka-nerd", "nvidia-dkms", "nvidia-settings", "nvidia-utils", "xrandr", "mesa"
 ]
 
 DEV_PACKAGES = [
-    "cheese", "screenkey", "timeshift", "pinta", "kdenlive", "wireshark-qt",
-    "filezilla", "ghex", "chromium", "keepassxc", "audacity", "gufw", "python-pywal",
-    "bleachbit", "veracrypt", "homebank", "gtkhash", "gnome-firmware", "touche", "dconf-editor",
-    "neovim", "obs-studio", "telegram-desktop", "tmux", "youtube-dl", "code", "cowsay",
-    "deluge-gtk", "flameshot", "sqlitebrowser", "obsidian", "python-pip", "bpython", "ipython", "cloc",
+    "cheese", "timeshift", "pinta", "wireshark-qt",
+    "filezilla", "ghex", "chromium", "keepassxc", "gufw", "python-pywal",
+    "homebank", "gtkhash", "gnome-firmware", "dconf-editor",
+    "neovim", "telegram-desktop", "tmux",
+    "deluge-gtk", "flameshot", "obsidian", "python-pip", "bpython", "ipython", "cloc",
+    "go", "steam", "postgresql", "pgadmin4", "kleopatra", "docker", "docker-compose", "kubernetes", "kubectl"
 ]
 
 AUR_PACKAGES = [
-    "cava", "i3lock-color", "ptpython"
+    "cava", "i3lock-color", "ptpython",
+    "goland", "pycharm-community", "discord", "postman-bin", "logiops", "mongodb-bin"
 ]
 
 GNOME_OFFICIAL_TOOLS = [
     "evince", "gnome-calculator", "gnome-disk-utility", "gucharmap",
     "gthumb", "gnome-clocks"
 ]
-
